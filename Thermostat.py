@@ -1,12 +1,12 @@
 
 
 #
-# Thermostat - Completed CS-350 Final Project version
+# Thermostat CS-350 Final Project version
 # Uses two physical buttons (green + red) to provide three actions:
 #   - Cycle thermostat state (off/heat/cool)
 #   - Increase setpoint by 1°F
 #   - Decrease setpoint by 1°F (via long-press on red button)
-#
+#   manages the GPIO input 
 
 
 from time import sleep
